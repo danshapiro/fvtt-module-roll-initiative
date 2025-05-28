@@ -1,0 +1,36 @@
+#combat-flair-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+#combat-flair-image {
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  border-radius: 10px;
+  opacity: 0;
+}
+
+#combat-flair-test-name {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+} 

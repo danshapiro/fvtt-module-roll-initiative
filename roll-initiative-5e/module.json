@@ -1,0 +1,27 @@
+{
+  "id": "roll-initiative-5e",
+  "title": "Roll Initiative 5e",
+  "description": "Adds a button to roll initiative for PCs and selected NPCs, with optional  animations and sounds.",
+  "version": "1.0.0",
+  "socket": true,
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "styles": [
+    "styles/roll-initiative-5e.css"
+  ],
+  "esmodules": [
+    "roll-initiative-5e.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+} 
