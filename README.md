@@ -31,6 +31,16 @@ Foundry: **Setup → Add-on Modules → Install Module →** paste the Manifest 
 - **Flair Animation Stay Duration (ms) (world):** how long the image stays before animating out.
 - **Animation Test Mode (client):** runs through all animations instead of normal behavior (useful to preview your flair assets).
 
+## 🎨 Artwork Gallery
+
+This module comes with **75+ AI-generated art assets** and shows a random one each time.
+
+### Animated Gallery Preview
+
+<p align="center">
+  <img src="temp_gif_creator/output/roll_initiative_compact.gif" width="400" alt="Roll for Initiative Artwork Gallery - 75+ AI-Generated Assets">
+</p>
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
