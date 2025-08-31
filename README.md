@@ -49,7 +49,7 @@ The module needs to know which characters are your players. Here's how to set it
 ### Using the Module
 1. Make sure your player characters have tokens on the **current scene**
 2. Optionally select one or more NPC tokens on the scene
-3. Click the "Roll Initiative 5e" icon button (on the left hand side, looks like a d20)
+3. Click the "Roll Initiative 5e" button in the Token controls (left hand side, looks like a d20)
 4. The module will automatically:
    - Create/activate combat on the current scene
    - Add all your configured PCs to the combat (but not roll initiative)
@@ -65,8 +65,6 @@ The module needs to know which characters are your players. Here's how to set it
 - **Enable Initiative Flair Sound Effect (world):** Play sounds with the flair
 - **Flair Animation Stay Duration (ms) (world):** How long images stay visible
 - **Animation Test Mode (client):** Preview all your flair assets
-
-The module comes with 75+ AI-generated assets ready to use!
 
 ## License
 
