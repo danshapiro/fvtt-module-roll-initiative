@@ -12,11 +12,11 @@ It kind of ruins the moment, no?  FVTT does not make the climactic moment easy. 
 
 ![Roll Initiative 5e](docs/roll_initiative_header.png)
 
-Adds a GM button on the **Token** controls to (a) create/activate a combat on the current scene, (b) add configured PCs (by UUID) that have tokens on the scene, (c) add any selected NPC tokens, and (d) roll initiative for NPCs that don't have it yet. Optionally shows a big "initiative flair" image and/or plays a sound when a new combat begins.
+Adds a GM button on the **Token** controls to (a) create/activate a combat on the current scene, (b) add PCs, (c) add any selected NPC tokens, and (d) roll initiative for NPCs that don't have it yet. Optionally shows a big "initiative flair" image and/or plays a sound when a new combat begins.
 
 ## Artwork Gallery
 
-This module comes with **75+ AI-generated art assets** and shows a random one each time combat starts.
+This module comes with 75+ AI-generated art assets and shows a random one each time combat starts.
 
 ![Roll for Initiative Artwork Gallery](docs/roll_initiative_compact.gif)
 
