@@ -1,6 +1,24 @@
+_**The corridor collapses into a vast chamber, the ceiling lost in shadow. A low rumble shakes the earth, followed by a whiff of smoke as you see scales glitter in the darkness. Roll for initiative!**_
+
+...right click, sword icon, ok I added the dragon guys, just hold on
+
+...and there's Throg, and Sir Reginald
+
+...no Steve, you can't roll yet, I'm getting to you next...
+
+It kind of ruins the moment, no?  FVTT does not make the climactic moment easy. But no longer! Now your declaration of imminent demise can be accompanied by a thunderous roar, the clatter of dice, and a brave announcement of doom!
+
 # Roll Initiative 5e
 
-Adds a GM button on the **Token** controls to (a) create/activate a combat on the current scene, (b) add configured PCs (by UUID) that have tokens on the scene, (c) add any selected NPC tokens, and (d) roll initiative for NPCs that don’t have it yet. Optionally shows a big “initiative flair” image and/or plays a sound when a new combat begins.
+![Roll Initiative 5e](docs/roll_initiative_header.png)
+
+Adds a GM button on the **Token** controls to (a) create/activate a combat on the current scene, (b) add configured PCs (by UUID) that have tokens on the scene, (c) add any selected NPC tokens, and (d) roll initiative for NPCs that don't have it yet. Optionally shows a big "initiative flair" image and/or plays a sound when a new combat begins.
+
+## Artwork Gallery
+
+This module comes with **75+ AI-generated art assets** and shows a random one each time combat starts.
+
+![Roll for Initiative Artwork Gallery](docs/roll_initiative_compact.gif)
 
 ## Install
 
@@ -30,16 +48,6 @@ Foundry: **Setup → Add-on Modules → Install Module →** paste the Manifest 
 - **Enable Initiative Flair Sound Effect (world):** play a sound with the flair.
 - **Flair Animation Stay Duration (ms) (world):** how long the image stays before animating out.
 - **Animation Test Mode (client):** runs through all animations instead of normal behavior (useful to preview your flair assets).
-
-## 🎨 Artwork Gallery
-
-This module comes with **75+ AI-generated art assets** and shows a random one each time.
-
-### Animated Gallery Preview
-
-<p align="center">
-  <img src="temp_gif_creator/output/roll_initiative_compact.gif" width="400" alt="Roll for Initiative Artwork Gallery - 75+ AI-Generated Assets">
-</p>
 
 ## License
 
