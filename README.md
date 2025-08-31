@@ -6,7 +6,7 @@ _**The corridor collapses into a vast chamber, the ceiling lost in shadow. A low
 
 ...no Steve, you can't roll yet, I'm getting to you next...
 
-It kind of ruins the moment, no?  FVTT does not make the climactic moment easy. But no longer! Now your declaration of imminent demise can be accompanied by a thunderous roar, the clatter of dice, and a brave announcement of doom!
+It kind of ruins the moment, no?  But no longer! Now your declaration of imminent demise can be accompanied by a thunderous roar, the clatter of dice, and a brave announcement of doom!
 
 # Roll Initiative 5e
 
@@ -32,22 +32,41 @@ Foundry: **Setup → Add-on Modules → Install Module →** paste the Manifest 
 - Foundry VTT core **v11+** (verified on v11).  
 - System: **D&D 5e (dnd5e)**.
 
-## Usage
+## Setup & Usage
 
-1. (GM) Configure PC UUIDs: comma-separated list (e.g., `Actor.ABC...,Actor.XYZ...`) via **Configure Settings → Module Settings → Roll Initiative 5e**.
-2. Make sure those PCs have tokens on the **current** scene.
-3. Optionally select one or more NPC tokens on the scene.
-4. Click the "Roll Initiative 5e" d20 icon button.
-5. It will show a flair image and/or play a sound (if not disabled).
+### Player Setup 
+The module needs to know which characters are your players. Here's how to set it up:
 
-## Settings
+1. **Open any player character sheet** in your world
+2. **Right-click the book icon** at the top of the character sheet
+3. **Click "Copy UUID"** - this copies a long string to your clipboard
+4. **Go to Configure Settings → Module Settings → Roll Initiative 5e**
+5. **Paste the UUID** into the "PC Actor UUIDs" field
+6. **Repeat for each player character** - separate multiple UUIDs with commas
 
-- **PC Actor UUIDs (world):** e.g., `Actor.XXXXXXXX...,Actor.YYYYY...` — right-click the book icon on a sheet → **Copy UUID**.
-- **Flair Asset Folder Path (world):** e.g., `modules/roll-initiative-5e/assets/` (must end with `/`). The module looks for `.png/.webp` images and `.mp3/.wav` sounds here. The module comes with a full set of AI-generated assets that you can use directly.
-- **Enable Initiative Flair Animation (world):** show an image animation on new combat.
-- **Enable Initiative Flair Sound Effect (world):** play a sound with the flair.
-- **Flair Animation Stay Duration (ms) (world):** how long the image stays before animating out.
-- **Animation Test Mode (client):** runs through all animations instead of normal behavior (useful to preview your flair assets).
+**Pro tip:** You only need to do this once per character ever.
+
+### Using the Module
+1. Make sure your player characters have tokens on the **current scene**
+2. Optionally select one or more NPC tokens on the scene
+3. Click the "Roll Initiative 5e" icon button (on the left hand side, looks like a d20)
+4. The module will automatically:
+   - Create/activate combat on the current scene
+   - Add all your configured PCs to the combat (but not roll initiative)
+   - Add NPC tokens, if you selected any
+   - Roll initiative for NPCs that don't have it yet
+   - Show a dramatic flair image and play a sound (if enabled)
+5. If you haven't added the monsters yet, select them and click it again. It will quietly add them to the combat & roll their initiative.
+
+### Customization Options
+- **PC Actor UUIDs (world):** Your player character UUIDs (set up in Player Setup above)
+- **Flair Asset Folder Path (world):** Path to your custom images/sounds (default: `modules/roll-initiative-5e/assets/`)
+- **Enable Initiative Flair Animation (world):** Show dramatic images when combat starts
+- **Enable Initiative Flair Sound Effect (world):** Play sounds with the flair
+- **Flair Animation Stay Duration (ms) (world):** How long images stay visible
+- **Animation Test Mode (client):** Preview all your flair assets
+
+The module comes with 75+ AI-generated assets ready to use!
 
 ## License
 
