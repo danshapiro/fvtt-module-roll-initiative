@@ -1,0 +1,35 @@
+{
+  "id": "roll-initiative-5e",
+  "title": "Roll Initiative 5e",
+  "description": "Adds a button to roll initiative for PCs and selected NPCs, with optional animations and sounds.",
+  "version": "1.0.0",
+  "socket": true,
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Dan Shapiro"
+    }
+  ],
+  "styles": [
+    "styles/roll-initiative-5e.css"
+  ],
+  "esmodules": [
+    "roll-initiative-5e.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "https://github.com/danshapiro/fvtt-module-roll-initiative",
+  "manifest": "https://github.com/danshapiro/fvtt-module-roll-initiative/releases/latest/download/module.json",
+  "download": "https://github.com/danshapiro/fvtt-module-roll-initiative/releases/latest/download/module.zip"
+}
+
+
